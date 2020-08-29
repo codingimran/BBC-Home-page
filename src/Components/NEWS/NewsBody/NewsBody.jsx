@@ -6,7 +6,7 @@ const NewsBody = (props) => {
     <div className="news_body">
       <div className="news_body_section">
         <img src={img} alt="News Banner" className="news_banner_image grow" />
-        <h5 className="mv3">{title}</h5>
+        <h5 className="mv2">{title}</h5>
         <p className="gray">{time}</p>
       </div>
     </div>

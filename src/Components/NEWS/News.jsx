@@ -9,18 +9,18 @@ const News = () => {
   return (
     <div>
       <div className="flex justify-center flex-column-m">
-        <div className="news_image self-center-m" style={{ width: "100%" }}>
+        <div className="news_image self-center-m">
           <img
             src="https://ichef.bbci.co.uk/news/800/cpsprodpb/6059/production/_114156642_e9b192cb-54c8-4b7c-a2ef-9fbab7e43792.jpg"
             alt="img"
-            style={{ width: "100%" }}
+            style={{ marginBottom: "2rem" }}
           />
         </div>
         <div
           className="news_header mt3-m ml4 gray"
           style={{ maxWidth: "780px" }}
         >
-          <h3 className="" style={{ fontSize: "1.7rem", fontWeight: "700" }}>
+          <h3 className="" style={{ fontSize: "1.4rem", fontWeight: "700" }}>
             'দিল্লির দাঙ্গায় সামিল ছিল পুলিশও': অ্যামনেস্টি ইন্টারন্যাশনাল
           </h3>
           <p className="pt2 pr4" style={{ fontSize: "1.25rem" }}>
@@ -30,7 +30,7 @@ const News = () => {
           </p>
           <div className="">৬ ঘন্টা আগে</div>
           <hr />
-          <h4 className="mb4">দাঙ্গার সময় যা দেখেছিলেন বিবিসি সংবাদদাতা</h4>
+          <h6 className="mb4">দাঙ্গার সময় যা দেখেছিলেন বিবিসি সংবাদদাতা</h6>
         </div>
       </div>
       {/* 1st news section */}

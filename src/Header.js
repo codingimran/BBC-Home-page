@@ -12,17 +12,17 @@ const Header = () => {
         <div className="nav-bar ">
           <ul className="flex list ph0 mb0">
             <li className="pr3">
-              <a href="#/bengali" className="navy f3 link">
+              <a href="#/bengali" className="navy  link">
                 মূলপাতা
               </a>
             </li>
             <li className="pr3">
-              <a href="#/bengali/news-51941294" className="navy f4 link">
+              <a href="#/bengali/news-51941294" className="navy  link">
                 করোনাভাইরাস
               </a>
             </li>
             <li>
-              <a href="#/bengali/media/video" className="navy f4 link">
+              <a href="#/bengali/media/video" className="navy  link">
                 ভিডিও
               </a>
             </li>
